@@ -32,7 +32,7 @@ async def start(_, update):
     """Start Message"""
     markup = InlineKeyboardMarkup([[InlineKeyboardButton("My Owner 👮", url=f"https://t.me/Hamzavibes")]])
     await update.reply(
-            f"**Hi {update.chat.first_name}!**\n\n"
+            f"**Hi {update.chat.SmxUpdates}!**\n\n"
             "I'm shortlink bot. Just send me link and get adsless short link",
             reply_markup=markup,
             quote=True)
